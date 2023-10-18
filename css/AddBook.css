@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main1{
+display: flex;
+height: 79vh;
+background-image: url("/image/1758.jpg");
+background-size: cover;
+animation: slider 10s  infinite linear;
+overflow: auto;
+}
+@keyframes slider {
+0%{
+    background-image: url("/image/1758.jpg");
+}
+35%{
+ background-image: url("/image/2687.jpg");
+}
+75%{
+background-image: url("/image/2972.jpg");
+}
+}
+.AddBooks{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.AddBooks h1{
+    text-align: center;
+}
+.AddBooks table{
+    padding:20px;
+    border:2px solid black;
+    border-radius: 15px;
+    height: 72vh;
+}
+
+tr td .text{
+    width: 95%;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    padding: 5px;
+    background-color: transparent !important;
+}
+#detail{
+    width: 95%;
+    outline: none;
+    padding:5px;
+    border: 2px solid dimgray;
+    background-color: transparent !important;
+}
+.btn{
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: fangsong;
+    background: repeating-linear-gradient(blue,#1c1d6f, transparent 79px);
+
+
+}
